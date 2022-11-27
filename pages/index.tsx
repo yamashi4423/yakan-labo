@@ -30,9 +30,7 @@ export default function Home() {
       </p>
       <p>
         一応
-        <a href="https://mypage3-59637.web.app/" target="_blank">
-          こちら
-        </a>
+        <a href="https://mypage3-59637.web.app/">こちら</a>
         が私のホームページですが，正直お試しで作ったものなので全然動いていません
       </p>
       {/* <p>ここにTwitter</p> */}
