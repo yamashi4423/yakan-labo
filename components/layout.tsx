@@ -14,13 +14,6 @@ const Wrapper = styled.div`
 function Layout({ children }: any) {
   return (
     <Wrapper>
-      <Head>
-        <link
-          rel="icon"
-          sizes="648x648"
-          href="/public/favicons/favicon.png"
-        ></link>
-      </Head>
       <Header />
       <Main>{children}</Main>
       <Footer />
