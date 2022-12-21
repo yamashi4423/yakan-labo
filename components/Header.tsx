@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   justify-content: space-between;
 
   height: 8vh;
-  background-color: #7895b2;
+  background-color: var(--header-color);
 `;
 const IconContainer = styled.div`
   display: flex;

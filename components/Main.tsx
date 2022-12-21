@@ -17,7 +17,7 @@ const MainContainer = styled.div`
 const MainArticle = styled.div`
   color: #000000;
   a {
-    color: #aebdca;
+    color: var(--sub-color);
     text-decoration: underline;
   }
   p {

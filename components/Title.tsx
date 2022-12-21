@@ -8,7 +8,7 @@ const TitleContainer = styled.div`
   height: 15vh;
 `;
 const TitleContent = styled.div`
-  color: #7895b2;
+  color: var(--header-color);
   font-size: 1.7rem;
   letter-spacing: 0.4rem;
 `;

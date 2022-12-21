@@ -6,7 +6,7 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e8dfca;
+  background-color: var(--footer-color);
 `;
 const Container = styled.div``;
 

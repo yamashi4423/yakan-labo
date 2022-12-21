@@ -3,7 +3,7 @@ import React from "react";
 
 const SubtitleContainer = styled.div``;
 const SubtitleContent = styled.div`
-  color: #7895b2;
+  color: var(--header-color);
   font-size: 1.3rem;
   padding: 1rem 0;
 `;
