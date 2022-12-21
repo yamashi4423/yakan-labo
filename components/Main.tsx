@@ -3,7 +3,7 @@ import React from "react";
 import Title from "./Title";
 
 const MainContainer = styled.div`
-  max-width: 900px;
+  max-width: 780px;
   width: 100%;
   padding: 1rem;
   @media (min-width: 580px) {
