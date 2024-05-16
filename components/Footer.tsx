@@ -14,7 +14,7 @@ function Footer() {
   return (
     <Wrapper>
       <Container>
-        <>&copy;やかん</>
+        <>&copy;中山</>
       </Container>
     </Wrapper>
   );
