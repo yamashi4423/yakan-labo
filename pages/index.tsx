@@ -10,23 +10,29 @@ import Title from "../components/Title";
 export default function Home() {
   return (
     <Main>
-      <Title content="やかん研へようこそ" />
+      <Title content="中山研へようこそ" />
       <Article>
-        <Subtitle content="やかん研について" />
-        <p>どうもこんにちは，やかん研の「やかん」です</p>
-        <p>このページは私が何か作ったものとかを公開するページになっています</p>
+        <Subtitle content="中山研について" />
+        <p>どうもこんにちは，中山研の中山です</p>
         <p>
-          ぷよぐやみんぐのおべんきょうについてはまだ1年も経っていないです，なにかコミュニティとか入りたいとかおもてます
+          このページは私が何か作ったものとかを公開するページになっています。いわゆるポートフォリオサイトです。
         </p>
-        {/* <p>ここに，つくったものを入れる</p> */}
+        <p></p>
+        <p>中山研とは言っていますが、研究者でも何でもないです。学生です。</p>
+        <p>
+          エンジニアリングのおべんきょうをしています。何かコミュニティに入りてーです！
+        </p>
       </Article>
 
       <Article>
-        <Subtitle content="すきなツール" />
+        <Subtitle content="よく使う技術・ツール" />
         <ul>
-          <li>react</li>
-          <li>emotion (css-in-js)</li>
-          <li>python</li>
+          <li>フロント：React（Next.js）</li>
+          <li>
+            バックエンド：ほとんどやらないけど、flaskとLaravelは使ったことある。
+          </li>
+          <li>深層学習：Tensorflow多め。PyTorchときどき。</li>
+          <li>インフラ：バイトでGCPを使う。AWSは触った程度。</li>
         </ul>
         <p>など</p>
       </Article>
@@ -36,12 +42,6 @@ export default function Home() {
         <p>
           なにか同じようなことをやっている方などいましたらtwitterなどでDMしてもらえたらうれしいです
         </p>
-        <p>
-          一応
-          <a href="https://mypage3-59637.web.app/">こちら</a>
-          が私のホームページですが，正直お試しで作ったものなので全然動いていません
-        </p>
-        {/* <p>ここにTwitter</p> */}
       </Article>
     </Main>
   );
