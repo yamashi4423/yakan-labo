@@ -5,7 +5,7 @@ const SubtitleContainer = styled.div``;
 const SubtitleContent = styled.div`
   color: var(--header-color);
   font-size: 1.3rem;
-  padding: 1rem 0;
+  font-weight: bold;
 `;
 
 function Subtitle({ content }: { content: string }) {
